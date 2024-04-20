@@ -16,4 +16,10 @@ public class ApplicationController {
     public ResponseEntity<String> sayWelcome() {
         return ResponseEntity.ok("Welcome to CSI");
     }
+
+
+    @GetMapping("/hello")
+    public ResponseEntity<String> sayHello() {
+        return ResponseEntity.ok("Hello Aishwarya!!!!!");
+    }
 }
